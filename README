@@ -1,0 +1,8 @@
+Have fun!!!(Don't forget to echo "source ~/funny-ROS-Programm_ws/devel/setup.zsh">>~/.zshrc)
+
+package_1:morse_service:
+This package has one client and two servers.
+After you rosrun two servers(rosrun morse_service morse_encrypter(_translater)), 
+you can then simply use command: rosrun morse_service morse_client "morse code or some text" to translate
+code in text or encrypt text with morse code! 
+In this way you will understand the service of ROS better!
